@@ -20,7 +20,7 @@ spec:
         servicefor: category
     spec:
       containers:
-      - image: nikhil7467/category:1.0
+      - image: nikhil7467/category:distributed
         imagePullPolicy: Always
         name: category
         ports:
